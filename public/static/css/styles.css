@@ -15,11 +15,11 @@ h1
 {
 	color: #f3c800;
 	font-family: 'Winter_brush';
-	font-size: 2.3em;
+	font-size: 2em;
 }
 #left
 {
-	background-color: #0f012d;
+	background-color: #000000;
 	float: left;
 	width: 20%;
 	height: 1000px;
@@ -28,7 +28,7 @@ h1
 }
 #right
 {
-	background-image: url("arches.png"); /* Background pattern from Subtle Patterns */
+	background-image: url("arches.png");
 	float: left;
 	width: 80%;
 	height: 1000px;

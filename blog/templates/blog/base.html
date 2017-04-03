@@ -1,0 +1,27 @@
+{% load staticfiles %}
+<!doctype html>
+<html lang=''>
+<head>
+	<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+	<title>HiroHideyoshi</title>
+</head>
+<body>
+
+<div id="left">
+
+<div id="diamond">
+</div>
+<div id ="avatar">
+<img src="{% static 'css/avatar.jpg' %}" width="150px" height="150px"/>
+</div>
+
+<div id="logo"><h1> Wojciech Mojsiejuk</h1></div>
+</div>
+<div id="right">
+{% block content %}
+{% endblock %}
+</div>
+
+
+</body>
+<html>
